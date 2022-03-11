@@ -1,3 +1,8 @@
 # ninja log v5
 1	91	6684583757679262	CMakeFiles/EjerciciosClase.dir/main.c.obj	7e87ec088d8ad44e
-93	232	6684583759053305	EjerciciosClase.exe	af61d362c726fd40
+95	234	6686303590664433	EjerciciosClase.exe	35d0a64b0cc20f35
+5	94	6686303589294942	CMakeFiles/EjerciciosClase.dir/Ejercicio2_Busqueda.c.obj	163119397aa2b6e2
+0	147	6687149600498350	CMakeFiles/EjerciciosClase.dir/Ejercicio2_Busqueda.c.obj	163119397aa2b6e2
+148	320	6687149602181184	EjerciciosClase.exe	35d0a64b0cc20f35
+2	91	6687151284135061	CMakeFiles/EjerciciosClase.dir/Ejercicio2_Busqueda.c.obj	163119397aa2b6e2
+92	200	6687151285177908	EjerciciosClase.exe	35d0a64b0cc20f35

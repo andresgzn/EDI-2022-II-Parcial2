@@ -3,4 +3,4 @@ project(EjerciciosClase C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(EjerciciosClase Ejercicio1_Recursividad.c)
+add_executable(EjerciciosClase Ejercicio2_Busqueda.c)
