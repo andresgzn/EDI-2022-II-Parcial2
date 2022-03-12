@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "EjerciciosClase",
+					"name" : "EDI_2022_II_Parcial2",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "EjerciciosClase::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-EjerciciosClase-Debug-aabdbbd1a77a0f4947a9.json",
-					"name" : "EjerciciosClase",
+					"id" : "EDI_2022_II_Parcial2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EDI_2022_II_Parcial2-Debug-6554e10d9b54ba05178f.json",
+					"name" : "EDI_2022_II_Parcial2",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/andre/edi-2022-II/EDI-2022-II-Parcial2/EjerciciosClase/cmake-build-debug",
-		"source" : "C:/Users/andre/edi-2022-II/EDI-2022-II-Parcial2/EjerciciosClase"
+		"build" : "C:/Users/andre/edi-2022-II/EDI-2022-II-Parcial2/cmake-build-debug",
+		"source" : "C:/Users/andre/edi-2022-II/EDI-2022-II-Parcial2"
 	},
 	"version" : 
 	{

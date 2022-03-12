@@ -1,0 +1,3 @@
+C:/Users/andre/edi-2022-II/EDI-2022-II-Parcial2/cmake-build-debug/CMakeFiles/EDI_2022_II_Parcial2.dir
+C:/Users/andre/edi-2022-II/EDI-2022-II-Parcial2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/andre/edi-2022-II/EDI-2022-II-Parcial2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
