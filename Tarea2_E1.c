@@ -64,8 +64,6 @@ int buscaNombre(char nombres[TAM][MAX_CADENA], char nombreBusqueda[MAX_CADENA])
 {
     int x = -1;
 
-    printf("%s\n", nombreBusqueda);
-
     for (int i = 0; i < TAM; ++i)
         if(strcmp(nombreBusqueda, nombres[i]) == 0)
             x = i;

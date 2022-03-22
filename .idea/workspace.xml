@@ -12,33 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e1a1c04-3d1f-4f8b-b583-230f93c14805" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EjerciciosClase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EjerciciosClase/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EjerciciosClase/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EjerciciosClase/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EjerciciosClase/Ejercicio5_BubbleSort.c" beforeDir="false" afterPath="$PROJECT_DIR$/EjerciciosClase/Ejercicio5_Ordenacion.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EjerciciosClase/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-1c94688825166275ffea.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EjerciciosClase/cmake-build-debug/.cmake/api/v1/reply/index-2022-03-15T15-17-34-0241.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EjerciciosClase/cmake-build-debug/.cmake/api/v1/reply/target-EjerciciosClase-Debug-97b77c90cdf46c826e7b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EjerciciosClase/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/EjerciciosClase/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EjerciciosClase/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/EjerciciosClase/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EjerciciosClase/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/EjerciciosClase/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EjerciciosClase/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/EjerciciosClase/cmake-build-debug/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tarea2_E1.c" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea2_E1.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-39ec374d73517f16d878.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-9a3c02f4f5812ba5180e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-03-22T01-35-38-0555.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/EDI_2022_II_Parcial2.dir/Tarea1_E1.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/EDI_2022_II_Parcial2.dir/Tarea1_E2.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/EDI_2022_II_Parcial2.dir/Tarea2_E1.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/EDI_2022_II_Parcial2.dir/Tarea2_E1.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/EDI_2022_II_Parcial2.dir/Tarea2_E2.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/EDI_2022_II_Parcial2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/EDI_2022_II_Parcial2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/EDI_2022_II_Parcial2.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/EDI_2022_II_Parcial2.dir/compiler_depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +64,7 @@
       <updated>1647908639306</updated>
       <workItem from="1647908641225" duration="5984000" />
       <workItem from="1647961897415" duration="29000" />
-      <workItem from="1647982599757" duration="3160000" />
+      <workItem from="1647982599757" duration="3258000" />
     </task>
     <servers />
   </component>

@@ -12,7 +12,10 @@ CMakeFiles/EDI_2022_II_Parcial2.dir/Tarea2_E1.c.obj: ../Tarea2_E1.c \
   C:/Users/andre/Desktop/CLion\ 2021.3.2/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
   C:/Users/andre/Desktop/CLion\ 2021.3.2/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
   C:/Users/andre/Desktop/CLion\ 2021.3.2/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Users/andre/Desktop/CLion\ 2021.3.2/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h
+  C:/Users/andre/Desktop/CLion\ 2021.3.2/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Users/andre/Desktop/CLion\ 2021.3.2/bin/mingw/x86_64-w64-mingw32/include/string.h \
+  C:/Users/andre/Desktop/CLion\ 2021.3.2/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Users/andre/Desktop/CLion\ 2021.3.2/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h
 
 
 ../Tarea2_E1.c:
@@ -31,6 +34,8 @@ C:/Users/andre/Desktop/CLion\ 2021.3.2/bin/mingw/x86_64-w64-mingw32/include/core
 
 C:/Users/andre/Desktop/CLion\ 2021.3.2/bin/mingw/x86_64-w64-mingw32/include/vadefs.h:
 
+C:/Users/andre/Desktop/CLion\ 2021.3.2/bin/mingw/x86_64-w64-mingw32/include/string.h:
+
 C:/Users/andre/Desktop/CLion\ 2021.3.2/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h:
 
 C:/Users/andre/Desktop/CLion\ 2021.3.2/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h:
@@ -38,3 +43,7 @@ C:/Users/andre/Desktop/CLion\ 2021.3.2/bin/mingw/x86_64-w64-mingw32/include/_min
 C:/Users/andre/Desktop/CLion\ 2021.3.2/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl:
 
 C:/Users/andre/Desktop/CLion\ 2021.3.2/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h:
+
+C:/Users/andre/Desktop/CLion\ 2021.3.2/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h:
+
+C:/Users/andre/Desktop/CLion\ 2021.3.2/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h:
