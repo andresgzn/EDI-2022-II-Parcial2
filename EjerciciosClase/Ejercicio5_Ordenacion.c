@@ -3,6 +3,7 @@
 
 void pideArreglo(int arreglo[TAM]);
 void bubbleSort(int arreglo[TAM]);
+void seleccionSort(int arreglo[TAM]);
 void imprime(int arreglo[TAM]);
 
 int main()
@@ -49,6 +50,16 @@ void bubbleSort(int arreglo[TAM])
         imprime(arreglo);
     }
 
+}
+
+void seleccionSort(int arreglo[TAM])
+{
+    int menor;
+
+    for (int i = 0; i < TAM; ++i)
+    {
+
+    }
 }
 
 void imprime(int arreglo[TAM])

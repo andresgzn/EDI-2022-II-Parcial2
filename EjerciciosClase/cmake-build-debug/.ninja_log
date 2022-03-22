@@ -1,19 +1,6 @@
 # ninja log v5
 1	91	6684583757679262	CMakeFiles/EjerciciosClase.dir/main.c.obj	7e87ec088d8ad44e
-98	202	6688300878914751	EjerciciosClase.exe	f8734471d0cda7eb
+84	197	6690626799205936	EjerciciosClase.exe	e0bcc5d08ca13475
 2	91	6687151284135061	CMakeFiles/EjerciciosClase.dir/Ejercicio2_Busqueda.c.obj	163119397aa2b6e2
 1	97	6688300877912355	CMakeFiles/EjerciciosClase.dir/Ejercicio2_Recursividad.c.obj	54edb4eb22faca7e
-0	172	6690618985146779	CMakeFiles/EjerciciosClase.dir/Ejercicio5_BubbleSort.c.obj	6fb035f0da72c8d8
-172	429	6690618987590738	EjerciciosClase.exe	e0bcc5d08ca13475
-2	115	6690620618218219	CMakeFiles/EjerciciosClase.dir/Ejercicio5_BubbleSort.c.obj	6fb035f0da72c8d8
-115	241	6690620619414601	EjerciciosClase.exe	e0bcc5d08ca13475
-2	93	6690622724507286	CMakeFiles/EjerciciosClase.dir/Ejercicio5_BubbleSort.c.obj	6fb035f0da72c8d8
-94	204	6690622725594709	EjerciciosClase.exe	e0bcc5d08ca13475
-3	86	6690624033094214	CMakeFiles/EjerciciosClase.dir/Ejercicio5_BubbleSort.c.obj	6fb035f0da72c8d8
-87	200	6690624034186200	EjerciciosClase.exe	e0bcc5d08ca13475
-2	89	6690625532614839	CMakeFiles/EjerciciosClase.dir/Ejercicio5_BubbleSort.c.obj	6fb035f0da72c8d8
-89	199	6690625533665847	EjerciciosClase.exe	e0bcc5d08ca13475
-2	97	6690626206992731	CMakeFiles/EjerciciosClase.dir/Ejercicio5_BubbleSort.c.obj	6fb035f0da72c8d8
-98	212	6690626208115805	EjerciciosClase.exe	e0bcc5d08ca13475
 3	84	6690626798110984	CMakeFiles/EjerciciosClase.dir/Ejercicio5_BubbleSort.c.obj	6fb035f0da72c8d8
-84	197	6690626799205936	EjerciciosClase.exe	e0bcc5d08ca13475
