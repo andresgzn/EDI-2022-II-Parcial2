@@ -1,13 +1,14 @@
 #include <stdio.h>
-#define TAM 3
+#define MAX_CADENA 20
+#define TAM 6
 
-void pideNombres(char nombres[TAM], char *nombreBusqueda);
-int buscaNombre(char nombres[TAM], char nombreBusqueda);
-void imprimeNombres(char nombres[TAM]);
+void pideNombres(char nombres[TAM][MAX_CADENA], char *nombreBusqueda);
+int buscaNombre(char nombres[TAM][MAX_CADENA], char nombreBusqueda);
+void imprimeNombres(char nombres[TAM][MAX_CADENA]);
 
 int main()
 {
-    char nombres[TAM];
+    char nombres[TAM][MAX_CADENA];
     char nombreaBuscar;
     int x;
 
@@ -16,7 +17,7 @@ int main()
     pideNombres(nombres, &nombreaBuscar);
     printf("\n");
 
-    //imprimeNombres(nombres);
+    imprimeNombres(nombres);
     x = buscaNombre(nombres, nombreaBuscar);
     printf("\n");
 
@@ -36,7 +37,7 @@ int main()
     return 0;
 }
 
-void pideNombres(char nombres[TAM], char *nombreBusqueda)
+void pideNombres(char nombres[TAM][MAX_CADENA], char *nombreBusqueda)
 {
     for (int i = 0; i < TAM; ++i)
     {
@@ -47,17 +48,15 @@ void pideNombres(char nombres[TAM], char *nombreBusqueda)
 
     printf("\n");
 
-    printf("%s\n", nombres[0]);
-    printf("%s\n", nombres[1]);
-    printf("%s\n", nombres[2]);
-    printf("%s\n", nombres[3]);
-    printf("%s\n", nombres[4]);
+    //printf("%s\n", nombres[0]);
+    //printf("%s\n", nombres[1]);
+    //printf("%s\n", nombres[2]);
 
     printf("Nombre a buscar:");
-    scanf("%s", &*nombreBusqueda);
+    scanf("%[^\n]", &*nombreBusqueda);
 }
 
-int buscaNombre(char nombres[TAM], char nombreBusqueda)
+int buscaNombre(char nombres[TAM][MAX_CADENA], char nombreBusqueda)
 {
     int x = -1;
 
@@ -70,7 +69,7 @@ int buscaNombre(char nombres[TAM], char nombreBusqueda)
     return x;
 }
 
-void imprimeNombres(char nombres[TAM])
+void imprimeNombres(char nombres[TAM][MAX_CADENA])
 {
     printf("\nNombres capturados:\n");
 
