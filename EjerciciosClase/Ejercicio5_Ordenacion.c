@@ -14,6 +14,7 @@ int main()
     imprime(arr);
 
     bubbleSort(arr);
+    seleccionSort(arr);
 
     return 0;
 }
@@ -54,12 +55,30 @@ void bubbleSort(int arreglo[TAM])
 
 void seleccionSort(int arreglo[TAM])
 {
-    int menor;
+    int posMenor;
+    int posAct;
+    int pos;
+    int aux;
 
-    for (int i = 0; i < TAM; ++i)
+    for (pos = 0; pos < TAM; ++pos)
     {
+        posMenor = pos;
 
+        for (posAct = pos; posAct < TAM; ++posAct)
+        {
+            if(arreglo[posAct] < arreglo[posMenor])
+                posMenor = posAct;
+        }
+
+        //Intercambio
+
+        aux = arreglo[pos];
+        arreglo[pos] = arreglo[posMenor];
+        arreglo[posMenor] = aux;
+
+        imprime(arreglo);
     }
+
 }
 
 void imprime(int arreglo[TAM])
