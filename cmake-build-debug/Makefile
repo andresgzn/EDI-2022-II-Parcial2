@@ -128,29 +128,29 @@ EDI_2022_II_Parcial2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EDI_2022_II_Parcial2.dir\build.make CMakeFiles/EDI_2022_II_Parcial2.dir/build
 .PHONY : EDI_2022_II_Parcial2/fast
 
-Tarea2_E1.obj: Tarea2_E1.c.obj
-.PHONY : Tarea2_E1.obj
+Tarea2_E2.obj: Tarea2_E2.c.obj
+.PHONY : Tarea2_E2.obj
 
 # target to build an object file
-Tarea2_E1.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EDI_2022_II_Parcial2.dir\build.make CMakeFiles/EDI_2022_II_Parcial2.dir/Tarea2_E1.c.obj
-.PHONY : Tarea2_E1.c.obj
+Tarea2_E2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EDI_2022_II_Parcial2.dir\build.make CMakeFiles/EDI_2022_II_Parcial2.dir/Tarea2_E2.c.obj
+.PHONY : Tarea2_E2.c.obj
 
-Tarea2_E1.i: Tarea2_E1.c.i
-.PHONY : Tarea2_E1.i
+Tarea2_E2.i: Tarea2_E2.c.i
+.PHONY : Tarea2_E2.i
 
 # target to preprocess a source file
-Tarea2_E1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EDI_2022_II_Parcial2.dir\build.make CMakeFiles/EDI_2022_II_Parcial2.dir/Tarea2_E1.c.i
-.PHONY : Tarea2_E1.c.i
+Tarea2_E2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EDI_2022_II_Parcial2.dir\build.make CMakeFiles/EDI_2022_II_Parcial2.dir/Tarea2_E2.c.i
+.PHONY : Tarea2_E2.c.i
 
-Tarea2_E1.s: Tarea2_E1.c.s
-.PHONY : Tarea2_E1.s
+Tarea2_E2.s: Tarea2_E2.c.s
+.PHONY : Tarea2_E2.s
 
 # target to generate assembly for a file
-Tarea2_E1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EDI_2022_II_Parcial2.dir\build.make CMakeFiles/EDI_2022_II_Parcial2.dir/Tarea2_E1.c.s
-.PHONY : Tarea2_E1.c.s
+Tarea2_E2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EDI_2022_II_Parcial2.dir\build.make CMakeFiles/EDI_2022_II_Parcial2.dir/Tarea2_E2.c.s
+.PHONY : Tarea2_E2.c.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... EDI_2022_II_Parcial2
-	@echo ... Tarea2_E1.obj
-	@echo ... Tarea2_E1.i
-	@echo ... Tarea2_E1.s
+	@echo ... Tarea2_E2.obj
+	@echo ... Tarea2_E2.i
+	@echo ... Tarea2_E2.s
 .PHONY : help
 
 

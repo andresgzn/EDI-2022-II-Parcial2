@@ -1,3 +1,0 @@
-"C:\Users\andre\Desktop\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\EDI_2022_II_Parcial2.dir/objects.a
-C:\Users\andre\Desktop\CLION2~1.2\bin\mingw\bin\ar.exe qc CMakeFiles\EDI_2022_II_Parcial2.dir/objects.a @CMakeFiles\EDI_2022_II_Parcial2.dir\objects1.rsp
-C:\Users\andre\Desktop\CLION2~1.2\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\EDI_2022_II_Parcial2.dir/objects.a -Wl,--no-whole-archive -o EDI_2022_II_Parcial2.exe -Wl,--out-implib,libEDI_2022_II_Parcial2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\EDI_2022_II_Parcial2.dir\linklibs.rsp
