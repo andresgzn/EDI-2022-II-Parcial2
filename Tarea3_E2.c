@@ -77,19 +77,30 @@ void seleccionSort(int arreglo[TAM])
 
 int repeticiones(int arreglo[TAM], int *num)
 {
-    int cont = 0;
+    int cont;
     int cont2 = 0;
-    int x;
+    int aux = arreglo[0];
 
     for (int i = 0; i < TAM; ++i)
     {
-        if(arreglo[i] == arreglo[i+1])
+        cont = 0;
+
+        if(aux == arreglo[i+1])
         {
-            cont++;
-            x = 1;
+            ++cont;
+            return 1;
         }
-        *num = arreglo[i];
+        else
+        {
+            if(cont > cont2)
+                *num = arreglo[i];
+
+            cont2 = cont;
+            aux = arreglo[i];
+        }
     }
+
+    return 0;
 
 }
 

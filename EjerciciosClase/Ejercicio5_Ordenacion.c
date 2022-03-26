@@ -4,6 +4,7 @@
 void pideArreglo(int arreglo[TAM]);
 void bubbleSort(int arreglo[TAM]);
 void seleccionSort(int arreglo[TAM]);
+void quickSort(int arreglo[TAM], int inicio, int fin);
 void imprime(int arreglo[TAM]);
 
 int main()
@@ -77,6 +78,33 @@ void seleccionSort(int arreglo[TAM])
         arreglo[posMenor] = aux;
 
         imprime(arreglo);
+    }
+
+}
+
+void quickSort(int arreglo[TAM], int inicio, int fin)
+{
+    int pivote;
+    int posIzq, posDer;
+
+    if(inicio >= fin)
+        return;
+
+    pivote = arreglo[inicio];
+    posIzq = inicio;
+    posDer = fin;
+
+    while (posIzq < posDer)
+    {
+        while (arreglo[posDer] > pivote && posIzq < posDer)
+            posDer--;
+
+        arreglo[posIzq] = arreglo[posDer];
+
+        while (arreglo[posIzq] <= pivote && posIzq < posDer)
+            posIzq++;
+
+        arreglo[posDer] = arreglo[posIzq];
     }
 
 }
