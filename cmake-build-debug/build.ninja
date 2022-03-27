@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/andre/edi-2022-II/EDI-2022-II-Parcial2/cmake-bui
 
 build cmake_object_order_depends_target_EDI_2022_II_Parcial2: phony || CMakeFiles/EDI_2022_II_Parcial2.dir
 
-build CMakeFiles/EDI_2022_II_Parcial2.dir/Reto1_Arreglos.c.obj: C_COMPILER__EDI_2022_II_Parcial2_Debug C$:/Users/andre/edi-2022-II/EDI-2022-II-Parcial2/Reto1_Arreglos.c || cmake_object_order_depends_target_EDI_2022_II_Parcial2
-  DEP_FILE = CMakeFiles\EDI_2022_II_Parcial2.dir\Reto1_Arreglos.c.obj.d
+build CMakeFiles/EDI_2022_II_Parcial2.dir/Tarea3_E2.c.obj: C_COMPILER__EDI_2022_II_Parcial2_Debug C$:/Users/andre/edi-2022-II/EDI-2022-II-Parcial2/Tarea3_E2.c || cmake_object_order_depends_target_EDI_2022_II_Parcial2
+  DEP_FILE = CMakeFiles\EDI_2022_II_Parcial2.dir\Tarea3_E2.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\EDI_2022_II_Parcial2.dir
   OBJECT_FILE_DIR = CMakeFiles\EDI_2022_II_Parcial2.dir
@@ -63,7 +63,7 @@ build CMakeFiles/EDI_2022_II_Parcial2.dir/Reto1_Arreglos.c.obj: C_COMPILER__EDI_
 #############################################
 # Link the executable EDI_2022_II_Parcial2.exe
 
-build EDI_2022_II_Parcial2.exe: C_EXECUTABLE_LINKER__EDI_2022_II_Parcial2_Debug CMakeFiles/EDI_2022_II_Parcial2.dir/Reto1_Arreglos.c.obj
+build EDI_2022_II_Parcial2.exe: C_EXECUTABLE_LINKER__EDI_2022_II_Parcial2_Debug CMakeFiles/EDI_2022_II_Parcial2.dir/Tarea3_E2.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\EDI_2022_II_Parcial2.dir
