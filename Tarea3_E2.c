@@ -2,7 +2,7 @@
 #define TAM 10
 
 void pideArreglo(int arreglo[TAM]);
-void repeticiones(int arreglo[TAM], int *num);
+int repeticiones(int arreglo[TAM]);
 void seleccionSort(int arreglo[TAM]);
 void imprime(int arreglo[TAM]);
 int condicion(int arreglo[TAM]);
@@ -27,7 +27,7 @@ int main()
 
     if(x == 1)
     {
-        repeticiones(arr, &num);
+        num = repeticiones(arr);
 
         printf("----------------------------------------------\n");
         printf("El numero %d es el mas repetido en el arreglo\n", num);
@@ -78,29 +78,34 @@ void seleccionSort(int arreglo[TAM])
 
 }
 
-void repeticiones(int arreglo[TAM], int *num)
+int repeticiones(int arreglo[TAM])
 {
-    int cont;
+    int num;
+    int cont = 0;
     int cont2 = 0;
     int aux = arreglo[0];
 
     for (int i = 0; i < TAM; ++i)
     {
-        cont = 0;
-
-        if(aux == arreglo[i+1])
+        if(aux == arreglo[i])
         {
-            ++cont;
+            cont++;
         }
         else
         {
             if(cont > cont2)
-                *num = arreglo[i];
+            {
+                num = arreglo[i-1];
+            }
 
             cont2 = cont;
+            cont = 0;
             aux = arreglo[i];
+            i--;
         }
     }
+
+    return num;
 }
 
 void imprime(int arreglo[TAM])
