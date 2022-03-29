@@ -1,8 +1,15 @@
 # ninja log v5
 1	91	6684583757679262	CMakeFiles/EjerciciosClase.dir/main.c.obj	7e87ec088d8ad44e
-84	197	6690626799205936	EjerciciosClase.exe	e0bcc5d08ca13475
+154	308	6698397152667530	EjerciciosClase.exe	8d7464fbedcdd488
 2	91	6687151284135061	CMakeFiles/EjerciciosClase.dir/Ejercicio2_Busqueda.c.obj	163119397aa2b6e2
 1	97	6688300877912355	CMakeFiles/EjerciciosClase.dir/Ejercicio2_Recursividad.c.obj	54edb4eb22faca7e
 3	84	6690626798110984	CMakeFiles/EjerciciosClase.dir/Ejercicio5_BubbleSort.c.obj	6fb035f0da72c8d8
 1	152	6698397151163840	CMakeFiles/EjerciciosClase.dir/Ejercicio5_Ordenacion.c.obj	6f127113cea15a37
-154	308	6698397152667530	EjerciciosClase.exe	8d7464fbedcdd488
+0	148	6702711722208936	CMakeFiles/EjerciciosClase.dir/Ejercicio6_Estructuras.c.obj	d2fc70f1141b1543
+149	407	6702711724701469	EjerciciosClase.exe	773ab63a031e48ef
+2	99	6702712957322685	CMakeFiles/EjerciciosClase.dir/Ejercicio6_Estructuras.c.obj	d2fc70f1141b1543
+100	216	6702712958436028	EjerciciosClase.exe	773ab63a031e48ef
+3	101	6702713321606717	CMakeFiles/EjerciciosClase.dir/Ejercicio6_Estructuras.c.obj	d2fc70f1141b1543
+102	236	6702713322849511	EjerciciosClase.exe	773ab63a031e48ef
+4	92	6702713875008398	CMakeFiles/EjerciciosClase.dir/Ejercicio6_Estructuras.c.obj	d2fc70f1141b1543
+93	206	6702713876117316	EjerciciosClase.exe	773ab63a031e48ef
