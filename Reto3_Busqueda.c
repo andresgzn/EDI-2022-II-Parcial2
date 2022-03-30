@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define TAM 3
+#define TAM 10
 
 void pideArreglo(char arr[TAM]);
 char letraObjetivo();
@@ -12,6 +12,8 @@ int main()
     char arreglo[TAM];
     char letra;
     char obj;
+
+    printf("--------LETRA OBJETIVO--------\n");
 
     pideArreglo(arreglo);
     printf("\n");
@@ -28,12 +30,14 @@ int main()
     printf("Arreglo Ordenado:\n");
 
     imprime(arreglo);
-    printf("\n");
 
     obj = objetivo(arreglo, letra);
     printf("\n");
 
-    printf("%c\n", obj);
+    printf("----------------------------\n");
+    printf("Letra objetivo: %c\n", letra);
+    printf("Salida: %c\n", obj);
+    printf("----------------------------\n");
 
     return 0;
 }
@@ -77,12 +81,26 @@ char objetivo(char arr[TAM], char letraObjetivo)
 
     for (int i = 0; i < TAM; ++i)
     {
-        if(letraObjetivo == arr[i])
-            salida = arr[i];
+        if(letraObjetivo >= arr[i])
+        {
+            if(arr[i] != arr[i+1])
+            {
+                salida = arr[i+1];
+            }
+
+            if(arr[TAM-1] <= letraObjetivo)
+            {
+                salida = arr[0];
+            }
+        }
+        else if(arr[0] > letraObjetivo)
+        {
+            salida = arr[0];
+        }
+
     }
 
     return salida;
-
 }
 
 void seleccionSort(char arreglo[TAM])
@@ -121,6 +139,5 @@ void imprime(char arreglo[TAM])
     }
 
     printf("]\n");
-    printf("\n");
     fflush(stdin);
 }
