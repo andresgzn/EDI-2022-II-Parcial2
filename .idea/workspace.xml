@@ -11,13 +11,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca8e0c6b-8196-4716-87e4-01d5c9730af7" name="Changes" comment="">
+    <list default="true" id="63938410-05ee-4445-9799-4e8987423733" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reto3_Busqueda.c" beforeDir="false" afterPath="$PROJECT_DIR$/Reto3_Busqueda.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-49eb07c6d113c33b596b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-03-29T23-57-12-0409.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-EDI_2022_II_Parcial2-Debug-62a630d39cda4a0f83e7.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/EDI_2022_II_Parcial2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/EDI_2022_II_Parcial2.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +43,7 @@
     <option name="majorVersion" value="2021" />
     <option name="minorVersion" value="3.2" />
   </component>
-  <component name="ProjectId" id="2757ePAx9OzihjdtDDYAt0kKWCw" />
+  <component name="ProjectId" id="277CvGorNvktSVXez615hU2Bkdf" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,15 +56,14 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
-    <configuration name="EDI_2022_II_Parcial2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="EDI_2022_II_Parcial2" TARGET_NAME="EDI_2022_II_Parcial2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="EDI_2022_II_Parcial2" RUN_TARGET_NAME="EDI_2022_II_Parcial2">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="EDI_2022_II_Parcial2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="EDI_2022_II_Parcial2" TARGET_NAME="EDI_2022_II_Parcial2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="EDI_2022_II_Parcial2" RUN_TARGET_NAME="EDI_2022_II_Parcial2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -69,13 +72,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ca8e0c6b-8196-4716-87e4-01d5c9730af7" name="Changes" comment="" />
-      <created>1648598187704</created>
+      <changelist id="63938410-05ee-4445-9799-4e8987423733" name="Changes" comment="" />
+      <created>1648661966037</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1648598187704</updated>
-      <workItem from="1648598189645" duration="1947000" />
-      <workItem from="1648654554868" duration="4242000" />
+      <updated>1648661966037</updated>
+      <workItem from="1648661968435" duration="3556000" />
     </task>
     <servers />
   </component>
