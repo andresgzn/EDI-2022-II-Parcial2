@@ -1,11 +1,10 @@
 #include <stdio.h>
-#include <string.h>
 
 typedef struct
 {
     int dia;
     char mes[10];
-    int año;
+    int annio;
 }TFecha;
 
 void capturaDatos(TFecha *fecha);
@@ -41,12 +40,12 @@ void capturaDatos(TFecha *fecha)
     }
 
     printf("A%co:", 164);
-    scanf("%d", &fecha->año);
+    scanf("%d", &fecha->annio);
 }
 
 void imprimeFecha(TFecha fecha)
 {
     printf("\n--------------------\n");
-    printf("%d/%s/%d\n", fecha.dia, fecha.mes, fecha.año);
+    printf("%d/%s/%d\n", fecha.dia, fecha.mes, fecha.annio);
     printf("--------------------\n");
 }
