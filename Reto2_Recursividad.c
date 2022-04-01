@@ -38,114 +38,16 @@ void cadenaHexadecimal(int num, char numHex[], int cont)
 {
     if(num != 0)
     {
-        if(num % 16 == 0)
+        if(num % 16 >= 0 && num % 16 <=9)
         {
-            numHex[cont]=48;
+            numHex[cont] = ((num%16)+48);
             cont++;
 
             cadenaHexadecimal(num/16, numHex, cont);
         }
-        else if(num % 16 == 1)
+        else if(num % 16 >=10 && num % 16 <=15)
         {
-            numHex[cont]=49;
-            cont++;
-
-            cadenaHexadecimal(num/16, numHex, cont);
-        }
-        else if(num % 16 == 2)
-        {
-            numHex[cont]=50;
-            cont++;
-
-            cadenaHexadecimal(num/16, numHex, cont);
-        }
-        else if(num % 16 == 3)
-        {
-            numHex[cont]=51;
-            cont++;
-
-            cadenaHexadecimal(num/16, numHex, cont);
-        }
-        else if(num % 16 == 4)
-        {
-            numHex[cont]=52;
-            cont++;
-
-            cadenaHexadecimal(num/16, numHex, cont);
-        }
-        else if(num % 16 == 5)
-        {
-            numHex[cont]=53;
-            cont++;
-
-            cadenaHexadecimal(num/16, numHex, cont);
-        }
-        else if(num % 16 == 6)
-        {
-            numHex[cont]=54;
-            cont++;
-
-            cadenaHexadecimal(num/16, numHex, cont);
-        }
-        else if(num % 16 == 7)
-        {
-            numHex[cont]=55;
-            cont++;
-
-            cadenaHexadecimal(num/16, numHex, cont);
-        }
-        else if(num % 16 == 8)
-        {
-            numHex[cont]=56;
-            cont++;
-
-            cadenaHexadecimal(num/16, numHex, cont);
-        }
-        else if(num % 16 == 9)
-        {
-            numHex[cont]=57;
-            cont++;
-
-            cadenaHexadecimal(num/16, numHex, cont);
-        }
-        else if(num % 16 == 10)
-        {
-            numHex[cont]=65;
-            cont++;
-
-            cadenaHexadecimal(num/16, numHex, cont);
-        }
-        else if(num % 16 == 11)
-        {
-            numHex[cont] = 66;
-            cont++;
-
-            cadenaHexadecimal(num/16, numHex, cont);
-        }
-        else if(num % 16 == 12)
-        {
-            numHex[cont]=67;
-            cont++;
-
-            cadenaHexadecimal(num/16, numHex, cont);
-        }
-        else if(num % 16 == 13)
-        {
-            numHex[cont]=68;
-            cont++;
-
-            cadenaHexadecimal(num/16, numHex, cont);
-        }
-        else if(num % 16 == 14)
-        {
-            numHex[cont]=69;
-            cont++;
-
-            cadenaHexadecimal(num/16, numHex, cont);
-        }
-        else if(num % 16 == 15)
-        {
-            numHex[cont]=70;
+            numHex[cont] = ((num%16)+55);
             cont++;
 
             cadenaHexadecimal(num/16, numHex, cont);
