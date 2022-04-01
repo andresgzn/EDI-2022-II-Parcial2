@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define TAM 20
+#define TAM 5
 
 int pideNumero();
 void cadenaHexadecimal(int num, char numHex[], int cont);
@@ -8,7 +8,7 @@ void imprimeNum(char numHex[]);
 int main()
 
 {
-    int num, cont=0;
+    int num, cont=TAM;
     char numHex[TAM];
 
     printf("-------- NUMERO HEXADECIMAL --------\n\n");
@@ -41,14 +41,14 @@ void cadenaHexadecimal(int num, char numHex[], int cont)
         if(num % 16 >= 0 && num % 16 <=9)
         {
             numHex[cont] = ((num%16)+48);
-            cont++;
+            cont--;
 
             cadenaHexadecimal(num/16, numHex, cont);
         }
         else if(num % 16 >=10 && num % 16 <=15)
         {
             numHex[cont] = ((num%16)+55);
-            cont++;
+            cont--;
 
             cadenaHexadecimal(num/16, numHex, cont);
         }
@@ -57,7 +57,7 @@ void cadenaHexadecimal(int num, char numHex[], int cont)
 
 void imprimeNum(char numHex[])
 {
-    for (int i = sizeof numHex; i >= 0; --i)
+    for (int i = 0; i <= TAM; ++i)
     {
         if(numHex[i] >= 48 && numHex[i] <=57 || numHex[i] >=65 && numHex[i] <=70)
             printf("%c", numHex[i]);
