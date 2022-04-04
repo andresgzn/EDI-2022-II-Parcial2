@@ -13,7 +13,18 @@
   <component name="ChangeListManager">
     <list default="true" id="9e04bb7d-915d-4840-b319-4db0edba2b0f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio7_Colas.c" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio7_Colas.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-26d98715667bcd8935fe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.cmake/api/v1/reply/index-2022-03-31T22-24-18-0369.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.cmake/api/v1/reply/target-EDI_2022_II_Parcial2-Debug-a757b96528ef2d0d521a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/EDI_2022_II_Parcial2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/EDI_2022_II_Parcial2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,16 +60,16 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="EjerciciosClase" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="EjerciciosClase" TARGET_NAME="EjerciciosClase" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="EjerciciosClase" RUN_TARGET_NAME="EjerciciosClase">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjerciciosClase" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="EjerciciosClase" TARGET_NAME="EjerciciosClase" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="EjerciciosClase" RUN_TARGET_NAME="EjerciciosClase">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -73,6 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1648826258539</updated>
       <workItem from="1648826259938" duration="2492000" />
+      <workItem from="1649081670617" duration="2508000" />
     </task>
     <servers />
   </component>

@@ -11,7 +11,7 @@
  *        4.3 Incremento fin
  *   5.Eliminar(dequeue) Regresar 1 si se pudo sacar, 0 en caso contrario
  *        5.1 Preguntar si hay valores en la cola
- *        5.2 Obtenemos el valor que esta
+ *        5.2 Obtenemos el valor que esta en la posicion de inicio
  */
 
 #include <stdio.h>
@@ -19,18 +19,24 @@
 
 typedef struct
 {
-    int datos[MAX + 1];
+    int datos[MAX+1];
     int inicio;
     int fin;
 }Cola;
 
 void inicializaCola(Cola *c);
+int colaVacia(Cola c);
+int colaLlena(Cola c);
+int insertar(Cola *c, int valor);
 
 int main()
 {
     Cola cola;
+    int vacia, llena;
 
     inicializaCola(&cola);
+    vacia = colaVacia(cola);
+    llena = colaLlena(cola);
 
     return 0;
 }
@@ -39,4 +45,33 @@ void inicializaCola(Cola *c)
 {
     c->inicio = 0;
     c->fin = 0;
+}
+
+int colaVacia(Cola c)
+{
+    if(c.inicio == c.fin)
+        return 1;
+
+    return 0;
+}
+
+int colaLlena(Cola c)
+{
+    if(c.fin == c.inicio-1 || c.fin == MAX && c.inicio == 0)
+        return 1;
+
+    return 0;
+}
+
+int insertar(Cola *c, int valor)
+{
+    if(colaLlena(*c) == 0)
+    {
+        c->datos[c->fin] = valor;
+        c->fin++;
+
+        return 1;
+    }
+
+    return 0;
 }
