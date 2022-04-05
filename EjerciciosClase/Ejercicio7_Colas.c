@@ -28,6 +28,7 @@ void inicializaCola(Cola *c);
 int colaVacia(Cola c);
 int colaLlena(Cola c);
 int insertar(Cola *c, int valor);
+int eliminar(Cola *c, int *valor);
 
 int main()
 {
@@ -69,6 +70,23 @@ int insertar(Cola *c, int valor)
     {
         c->datos[c->fin] = valor;
         c->fin++;
+
+        if(c->fin == MAX + 1)
+            c->fin = 0;
+
+        return 1;
+    }
+
+    return 0;
+}
+
+int eliminar(Cola *c, int *valor)
+{
+    if(colaVacia(*c) == 0)
+    {
+        *valor = c->datos[c->inicio];
+
+        c->inicio = (c->inicio + 1) % (MAX + 1);
 
         return 1;
     }
