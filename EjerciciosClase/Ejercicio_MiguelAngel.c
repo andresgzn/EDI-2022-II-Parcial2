@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #define TAM 20
 
 typedef struct
@@ -10,37 +11,29 @@ typedef struct
 
 typedef struct
 {
-    char nomMat[50];
-    float cal;
-}TMateria;
-
-typedef struct
-{
     char clave[11];
     TNombre nombre;
-    int nMatAprobadas;
-    TMateria arrCals[TAM];
-    float promedio;
 }TAlumno;
 
-void capturaDatos(TAlumno arrAlu[]);
+void capturaDatos(TAlumno arrAlu[], int n);
+int apRepetidos(TAlumno arrAlu[], int n);
 
 int main()
 {
+    int x;
     TAlumno alumno[TAM];
 
-    capturaDatos(alumno);
+    capturaDatos(alumno, 3);
+    x = apRepetidos(alumno, 3);
+
+    printf("\n%d\n", x);
 
     return 0;
 }
 
-void capturaDatos(TAlumno arrAlu[])
+void capturaDatos(TAlumno arrAlu[], int n)
 {
-    int i, j, n;
-
-    printf("No. de Alumnos:");
-    scanf("%d", &n);
-    fflush(stdin);
+    int i;
 
     for (i = 0; i < n; ++i)
     {
@@ -60,18 +53,19 @@ void capturaDatos(TAlumno arrAlu[])
         gets(arrAlu[i].nombre.apMat);
         fflush(stdin);
 
-        printf("No. Materias Aprobadas:");
-        scanf("%d", &arrAlu[i].nMatAprobadas);
-        fflush(stdin);
-
-        for (j = 0; j < arrAlu[i].nMatAprobadas; ++j)
-        {
-            printf("Nombre Materia No. %d:",j);
-            gets(arrAlu[i].arrCals[j].nomMat);
-            fflush(stdin);
-
-            printf("Calificacion:");
-            scanf("%f", arrAlu[i].arrCals[j].cal);
-        }
     }
+}
+
+int apRepetidos(TAlumno arrAlu[], int n)
+{
+    int i, j;
+    int cont = 0;
+
+    for (i = 0; i < n; ++i)
+        for (j = 0; j < n; ++j)
+            if(i != j)
+                if(strcmp(arrAlu[i].nombre.apPat,arrAlu[j].nombre.apPat)==0 && strcmp(arrAlu[i].nombre.apMat,arrAlu[j].nombre.apMat)==0)
+                    cont++;
+
+    return cont;
 }
