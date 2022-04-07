@@ -15,16 +15,12 @@
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ejercicio_MiguelAngel.c" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio_MiguelAngel.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-efb312928cef8a9e94f3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-04-05T14-06-35-0334.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-EjerciciosClase-Debug-6330059a036243709d5f.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/EjerciciosClase.dir/Ejercicio_MiguelAngel.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/EjerciciosClase.dir/Ejercicio_MiguelAngel.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/EjerciciosClase.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/EjerciciosClase.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-26d98715667bcd8935fe.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.cmake/api/v1/reply/index-2022-03-31T22-24-18-0369.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.cmake/api/v1/reply/target-EDI_2022_II_Parcial2-Debug-a757b96528ef2d0d521a.json" beforeDir="false" />
@@ -71,11 +67,6 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EjerciciosClase" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="EjerciciosClase" TARGET_NAME="EjerciciosClase" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="EjerciciosClase" RUN_TARGET_NAME="EjerciciosClase">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -93,7 +84,9 @@
       <workItem from="1649107365636" duration="1215000" />
       <workItem from="1649167554433" duration="2903000" />
       <workItem from="1649340380213" duration="595000" />
-      <workItem from="1649355655979" duration="1451000" />
+      <workItem from="1649355655979" duration="1496000" />
+      <workItem from="1649360143686" duration="883000" />
+      <workItem from="1649361244545" duration="3519000" />
     </task>
     <servers />
   </component>
